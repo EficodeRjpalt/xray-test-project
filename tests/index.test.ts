@@ -1,19 +1,25 @@
-import { addTwoNumbers, multiplyTwoNumbers, divideTwoNumbers } from '../src/index';
+import { addTwoNumbers, multiplyTwoNumbers, divideTwoNumbers, squareTwoNumbers } from '../src/index';
 
-describe('addTwoNumbers', () => {
-  it('adds two numbers', () => {
+describe('GIDP-2', () => {
+it('adds two numbers', () => {
     expect(addTwoNumbers(1, 2)).toEqual(3);
-  });
+});
 });
 
-describe('multiplyTwoNumbers', () => {
-  it('multiplies two numbers', () => {
+describe('GIDP-2', () => {
+it('multiplies two numbers', () => {
     expect(multiplyTwoNumbers(1, 2)).toEqual(2);
-  });
+});
 });
 
-describe('divideTwoNumbers', () => {
-  it('divides two numbers', () => {
+describe('GIDP-2', () => {
+it('divides two numbers', () => {
     expect(divideTwoNumbers(1, 2)).toEqual(0.5);
-  });
+});
+});
+
+describe('GIDP-2', () => {
+it('squares two numbers', () => {
+    expect(squareTwoNumbers(2, 2)).toEqual(4);
+});
 });

@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "target": "es2022",         /* Specify ECMAScript target version */
+      "module": "commonjs",       /* Specify module system (e.g., commonjs, esnext) */
+      "strict": true,             /* Enable strict mode */
+      "esModuleInterop": true,     /* Enable esModuleInterop for compatibility with CommonJS modules */
+      "skipLibCheck": true,       /* Skip type checking of declaration files */
+      "forceConsistentCasingInFileNames": true, /* Ensure consistent casing in file names */
+      "outDir": "./dist",         /* Output directory for compiled files */
+      "rootDir": "./src",         /* Root directory of source files */
+      "sourceMap": true,          /* Generate source maps for debugging */
+      "declaration": true,        /* Generate declaration files (.d.ts) */
+      "declarationDir": "./types",/* Output directory for declaration files */
+      "removeComments": true,     /* Remove comments from output */
+      "noImplicitAny": true       /* Raise error on expressions and declarations with an implied 'any' type */
+    },
+    "include": [
+      "src/**/*.ts"              /* Specify files to include in compilation */
+    ],
+    "exclude": [
+      "node_modules"             /* Specify files to exclude from compilation */
+    ]
+}

@@ -1,4 +1,4 @@
-import { addTwoNumbers, multiplyTwoNumbers, divideTwoNumbers } from '../src/index';
+import { addTwoNumbers, multiplyTwoNumbers, divideTwoNumbers, squareTwoNumbers } from '../src/index';
 
 describe('addTwoNumbers', () => {
   it('adds two numbers', () => {
@@ -15,5 +15,11 @@ describe('multiplyTwoNumbers', () => {
 describe('divideTwoNumbers', () => {
   it('divides two numbers', () => {
     expect(divideTwoNumbers(1, 2)).toEqual(0.5);
+  });
+});
+
+describe('squareTwoNumbers', () => {
+  it('squares two numbers', () => {
+    expect(squareTwoNumbers(2, 2)).toEqual(4);
   });
 });

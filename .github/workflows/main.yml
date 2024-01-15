@@ -34,5 +34,5 @@ jobs:
           password: ${{ secrets.XRAY_CLIENT_SECRET }}
           testFormat: "junit"
           testPaths: "**/test-results/*.xml"
-          testExecKey: "GIDP-2"
+          testExecKey: "GIDP-4"
           projectKey: "GIDP"

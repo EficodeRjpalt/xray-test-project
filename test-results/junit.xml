@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="4" failures="0" errors="0" time="0.844">
+  <testsuite name="addTwoNumbers" errors="0" failures="0" skipped="0" timestamp="2024-01-15T10:41:51" time="0.73" tests="4">
+    <testcase classname="addTwoNumbers adds two numbers" name="addTwoNumbers adds two numbers" time="0.003">
+    </testcase>
+    <testcase classname="multiplyTwoNumbers multiplies two numbers" name="multiplyTwoNumbers multiplies two numbers" time="0">
+    </testcase>
+    <testcase classname="divideTwoNumbers divides two numbers" name="divideTwoNumbers divides two numbers" time="0">
+    </testcase>
+    <testcase classname="squareTwoNumbers squares two numbers" name="squareTwoNumbers squares two numbers" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>

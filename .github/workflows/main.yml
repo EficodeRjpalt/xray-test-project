@@ -28,7 +28,7 @@ jobs:
         run: npm test
 
       - name: "Import results to Xray"
-        uses: mikepenz/xray-action@3.0.0
+        uses: mikepenz/xray-action@v3.0.0
         with:
           username: ${{ secrets.XRAY_CLIENT_ID }}
           password: ${{ secrets.XRAY_CLIENT_SECRET }}
